@@ -1,0 +1,23 @@
+.content{
+    height: 1370px;
+}
+.name{
+    margin-top: 5px;
+    margin: 0 auto;
+}
+.education{
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.education p{
+    margin-top: 10px;
+}
+.education a{
+    text-decoration: none;
+}
+.education a:hover{
+    color: green;
+}

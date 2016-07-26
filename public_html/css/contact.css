@@ -1,0 +1,36 @@
+#form-error{
+    font:bold 14px sans-serif;
+    color: red;
+    background-color: #F7EDEF;
+    border: 1px solid #FAC8D3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+#form-success{
+    font:bold 14px sans-serif;
+    color: black;
+    background-color: #D9FFCA;
+    border: 1px solid #B7E787;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.contacts{
+    padding: 20px;
+}
+.contacts p{
+    margin: 5px;
+}
+.contacts img{
+    margin-top: -20px;
+    margin-left: -20px;
+    float: left;
+    height: 150px;
+}
+.contacts a{
+    text-decoration: none;
+}
+.contacts a:hover{
+    color: green;
+}

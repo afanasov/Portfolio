@@ -1,0 +1,23 @@
+# Do not remove this line, otherwise mod_rewrite rules will stop working
+RewriteBase /
+#Cкрыть файл
+<Files "db_connect.php">
+   Order Deny,Allow
+    Deny from all
+    Allow from 46.201.229.186
+</Files>
+#Кодировка
+AddDefaultCharset UTF-8
+
+#ЧПУ
+RewriteEngine On
+Options +FollowSymlinks
+RewriteCond   %{REQUEST_FILENAME} !-d
+RewriteCond   %{REQUEST_FILENAME} !-f
+
+RewriteRule ^contact/$ contact.php [QSA,L]
+RewriteRule ^portfolio/$ portfolio.php [QSA,L]
+RewriteRule ^forbidden/$ forbidden.php [QSA,L]
+RewriteRule ^index/$ index.php [QSA,L]
+RewriteRule ^resume/$ resume.php [QSA,L]
+
